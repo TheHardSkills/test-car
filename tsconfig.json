@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "es2015"],
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "outDir": "build",
+    "baseUrl": "src",
+    "allowJs": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"],
+    "typeRoots": ["./src/typings"]
+  }
+}
