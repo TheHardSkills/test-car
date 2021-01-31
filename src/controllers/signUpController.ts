@@ -1,5 +1,6 @@
+import { Request, Response, NextFunction } from 'express';
 export class SignUpController{
-    getData(req, res, next){
+    getData(req: Request, res: Response, next: NextFunction){
         try {
             console.log("req", req);
         } catch (error) {
